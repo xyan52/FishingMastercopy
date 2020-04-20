@@ -35,7 +35,7 @@ class Menu extends Phaser.Scene {
         let textSpacer = 64;
 
         this.add.text(centerX, centerY- textSpacer, 'FISHING MASTER', menuConfig).setOrigin(0.5);
-        this.add.text(centerX, centerY, 'Use ←→/AD arrows to move & (SHIFT) to Fire', menuConfig).setOrigin(0.5);
+        this.add.text(centerX, centerY, 'Use ←→/AD arrows to move & (F/SHIFT) to Fire', menuConfig).setOrigin(0.5);
         menuConfig.color = '#000';
         this.add.text(centerX, centerY + textSpacer, 'Press ← for Easy or → for Hard', menuConfig).setOrigin(0.5);  
         
